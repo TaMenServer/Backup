@@ -1,0 +1,11 @@
+name: Backup
+Main: com.tamenserver.backup.Main
+version: 1.0.0
+author: TaMenServer
+commands:
+  save:
+    description: A save command.
+    usage: /save
+  backup:
+    description: A backup command.
+    usage: /backup
