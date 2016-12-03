@@ -2,6 +2,7 @@ name: Backup
 main: com.tamenserver.backup.Main
 version: 1.0.0
 author: TaMenServer
+depend: [Standard]
 commands:
   save:
     description: A save command.
