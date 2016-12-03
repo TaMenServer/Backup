@@ -12,8 +12,8 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         getLogger().info("Backup Plugin is enabled!");
         BackupCommand.setPlugin(this);
-        getCommand("save").setExecutor(new Backup());
-        getCommand("backup").setExecutor(new Save());
+        getCommand("save").setExecutor(new Save());
+        getCommand("backup").setExecutor(new Backup());
     }
     
     @Override
