@@ -6,7 +6,7 @@ depend: [Standard]
 commands:
   save:
     description: A save command.
-    usage: /save
+    usage: /save sth
   backup:
     description: A backup command.
     usage: /backup
